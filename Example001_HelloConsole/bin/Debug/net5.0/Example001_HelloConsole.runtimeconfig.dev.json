@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ASUS.LAPTOP-DMEQ6NQO\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ASUS.LAPTOP-DMEQ6NQO\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+    ]
+  }
+}
