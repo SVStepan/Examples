@@ -1,4 +1,6 @@
-﻿// string[,] table = new string[2, 5];
+﻿// Двумерные массивы
+
+// string[,] table = new string[2, 5];
 
 //// String.Empty инициализация
 //// table[0, 0]  table[0, 1]  table[0, 2]  table[0, 3]  table[0, 4]
@@ -17,9 +19,11 @@
 // вывод матрицы с конкретными данными 3 и 4
 // int[,] matrix = new int[3,4];
 
-// for (int rows =0; rows < 3; rows++)
+// for (int rows =0; rows < 3; rows++)    //  for (int rows =0; rows < matrix.GetLenth(0); rows++)  
+                                            //  matrix.GetLenth(0) - Колличество строк в массиве (длина)
 // {
-//     for (int columns =0; columns < 4; columns++)
+//     for (int columns =0; columns < 4; columns++)    // for (int columns =0; columns < matrix.GetLenth(1); columns++)
+                                            //  matrix.GetLenth(1) - Колличество столбцов в массиве (длин а)
 //     {
 //         Console.Write($"{matrix[rows, columns]} ");
 //     }
@@ -42,8 +46,8 @@
 // }
 
 // int[,] matrix = new int[3, 4];
-
 // PrintArray(matrix);
+
 
 // вывод матрицы с заполнением цыфрами 
 
@@ -65,7 +69,7 @@
 //     {
 //         for (int columns =0; columns < matr.GetLength(1); columns++)
 //         {
-//             matr[rows, columns] = new Random().Next(1,10); //[1,10)
+//             matr[rows, columns] = new Random().Next(1,10); //[1,10)   / генератор случайных чисел
 //         }
 //     }
 // }

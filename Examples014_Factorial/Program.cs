@@ -1,9 +1,14 @@
-﻿// // int Factorial(int n)
+﻿// Реккурсия
+
+// int Factorial(int n)
 // double Factorial(int n)
 // {
+//     // 1! = 1  и 0! = 1
 //     if (n == 1) return 1;
 //     else return n * Factorial(n-1);
-// }
+// } 
+//     //  Console.WriteLine(Factorial(3));
+//     //  чем больше значение n тем вероятнее наличеи проблем (переполнение, сложность вычисление в плане медлительность)
 // for (int i = 1; i < 40; i++)
 // {
 //     Console.WriteLine($"{i}! = {Factorial(i)}");
